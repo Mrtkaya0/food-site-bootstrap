@@ -1,0 +1,17 @@
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+  }
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    background: var(--white-color);
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+}

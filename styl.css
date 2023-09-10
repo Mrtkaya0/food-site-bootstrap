@@ -1,0 +1,98 @@
+/*Değişkenler*/
+
+:root {
+    --primary-color: #a82c48;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color: #fff;
+    --text-color: #555;
+    --text-gray: #999;
+    --black-color: #000;
+    --primary-font: "Roboto", sans-serif;
+    --secondry-font: "Quicksand", sans-serif;
+  }
+
+  a:hover{
+    color: var(--primary-color) !important;
+  }
+  h1{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+    color: var(--secondry-color);
+    line-height: 2rem;
+    letter-spacing: 1px;
+  }
+  h2{
+    color: var(--white-color);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+  }
+  h3{
+    color: var(--secondry-color);
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+  }
+
+  h2 p{
+    color: var(--white-color);
+  }
+
+
+  p{
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  .top-banner{
+    width: 100%;
+    background: url(img/bg-1.jpg);
+    background-position: center;
+    padding: 17rem 0 10rem;
+  }
+
+  #counter{
+    background-color: var(--primary-color);
+    margin-top: 6px;
+    padding: 20px;
+  }
+  /* hakkımızda */
+
+  .wrapper{
+    padding-top: 8rem;
+    padding: 8rem;
+  }
+
+  /* footer */
+
+  #footer{
+    background-color: var(--primary-color);
+  }
+
+  #footer .footer-links a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  .footer a{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+
+  .div a{
+    padding: 0 12px;
+
+  }
+
+  .footer a:hover{
+    color: white !important; 
+    background-color: rgb(161, 72, 72);
+    border-radius: 5px;
+    padding: 2px;
+  }
